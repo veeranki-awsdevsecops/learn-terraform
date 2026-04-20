@@ -79,6 +79,9 @@ output "x3_dev" {
 # file name has to be different, but the file nees to be loaded automatically, the auto.tfvars
 variable "x4" {}
 
+output "x4" {
+  value = var.x4
+}
 
 
 
