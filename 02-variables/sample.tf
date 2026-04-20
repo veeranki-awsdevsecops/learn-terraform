@@ -76,9 +76,9 @@ output "x3_dev" {
   value = var.x3_env
 }
 
-output "x3_prod" {
-  value = var.x3_env
-}
+# file name has to be different, but the file nees to be loaded automatically, the auto.tfvars
+variable "x4" {}
+
 
 
 
