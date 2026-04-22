@@ -1,4 +1,4 @@
-provider "aws" {}
+#provider "aws" {}
 
 resource "aws_instance" "example" {
   ami           = "ami-0220d79f3f480ecf5"
