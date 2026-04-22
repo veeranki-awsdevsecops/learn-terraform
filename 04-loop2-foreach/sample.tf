@@ -31,7 +31,7 @@ variable "instances" {
 
 resource "aws_instance" "web" {
   for_each = var.instances
-  ami = ""
+  ami  = "ami-0220d79f3f480ecf5"
   instance_type = each.value["instance_type"]
 
   tags = {
